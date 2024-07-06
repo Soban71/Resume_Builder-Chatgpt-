@@ -1,0 +1,442 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hammersmith+One&family=League+Spartan:wght@300;500&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Passions+Conflict&family=Permanent+Marker&family=Raleway&display=swap');
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+#download-resume{
+  margin-top: 20px;
+  background-color: #2ecc71;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #030202d1;
+    color: #f0f0f0;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    text-shadow: 3px 3px #cebe03c9;
+}
+
+/* Navigation styles */
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+nav {
+  font-size: 20px;
+  font-weight: bold;  
+  color: #fff;
+  background-color: #18181897;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding: 1rem;
+}
+
+nav ul li:hover {
+  background-color: #222;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+nav .active {
+  color: #ddd;
+}
+
+
+/* Main styles */
+main {
+  padding: 2rem;
+}
+
+/* Section styles */
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+/* About Section */
+
+#about {
+  margin: 2rem 0;
+  text-align: left;
+  padding: 2rem;
+  background-color: #2912120c;
+}
+
+#about h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+#about p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+#about a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #333;
+  transition: all 0.2s ease-in-out;
+}
+
+#about a:hover {
+  color: #01579b;
+  border-bottom: 1px solid #01579b;
+}
+
+/* features */
+
+#features {
+  padding: 2rem;
+  background-color: #4caf5026;
+  text-align: left;
+}
+
+#features h2 {
+  margin-bottom: 20px;
+}
+
+#features .feature {
+  list-style: none;
+  margin: 10px 0;
+}
+
+#features .feature:before {
+  content: "✔";
+  margin-right: 10px;
+}
+
+/* Pricing section styles */
+section#pricing {
+  text-align: center;
+}
+
+section#pricing a {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#image-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  min-height: 500px;
+  background-size: 100%;
+  /* background-position: 10%; */
+  border-radius: 1rem;
+  background-repeat: no-repeat;
+}
+
+#contact {
+  width: 100%;
+}
+
+/* Form container */
+
+form {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.resume-builder form > div {
+  width: -webkit-fill-available;
+}
+
+/* Form inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
+  width: inherit;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  border: 1px dashed #ccc;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+textarea {
+  min-height: 100px;
+}
+
+/* Form label */
+label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Form submit button */
+input[type="submit"] {
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Form submit button on hover */
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* About Page */
+
+/* General styling */
+#about-page {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Heading styling */
+h1 {
+}
+
+/* Paragraph styling */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* Image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+/* Layout styling */
+.about-us-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-img img {
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Resume Builder container */
+.resume-builder {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+/* Resume Builder header */
+.resume-builder__header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Resume Builder sidebar */
+.resume-builder__sidebar {
+  background-color: #eee;
+  color: #222;
+  padding: 2rem;
+  width: 50%;
+  flex-grow: 1;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+/* Resume Builder sidebar links */
+.resume-builder__sidebar a {
+  color: #222;
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+/* Resume Builder main content */
+.resume-builder__main-content {
+  background-color: #fff;
+  flex-grow: 1;
+  width: auto;
+}
+
+/* Form inputs */
+input,
+textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Add button */
+button[type="button"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Create Resume button */
+button[type="submit"] {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+hr {
+  width: 100%;
+  align-self: center;
+  border: none;
+  border-top: 1px dotted rgba(255, 255, 255, 0.6);
+  margin: 1rem 0;
+}
+
+#contact-form {
+  flex-direction: column;
+  width: 40%;
+}
+
+/* Home Pricing*/
+
+section#pricing {
+  text-align: left;
+  padding: 2rem;
+  background-color: #9ea7b126;
+}
+
+section#pricing h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
+}
+
+section#pricing p {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+section#pricing a {
+  font-size: 1.2em;
+  text-decoration: none;
+  background: #0077c9;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+section#pricing a:hover {
+  background: #005580;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Home Pricing*/
+
+section#contact {
+  text-align: left;
+  padding: 2rem;
+  background-color: #4caf5026;
+}
+
+section#contact h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
+}
+
+section#contact p {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+section#contact a {
+  font-size: 1.2em;
+  text-decoration: none;
+  background: #0077c9;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+section#contact a:hover {
+  background: #005580;
+  color: #fff;
+  text-decoration: none;
+}
